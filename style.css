@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    margin: 40px;
+}
+
+@media screen and (orientation:landscape) {
+    .container{
+        border-radius: 20px;
+    }
+}
